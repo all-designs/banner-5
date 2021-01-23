@@ -1,0 +1,675 @@
+/*+-----------------------------------------------------------+
+  |                                                           |
+  |    Template Name: Syrah - Wine Shop Html Template         |
+  |    Author: themesitem                                     |
+  |    Author Email: themesitem.cit@gmail.com                 |
+  |    Version: 1.00                                          |
+  |                                                           |
+  +-----------------------------------------------------------+*/
+
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. Index Page 
+        |----> Header css
+        |----> Sticky header css
+        |----> Banner Css
+        |----> About Css
+        |----> Product Css
+        |----> Event Css
+        |----> Offer Css
+        |----> Updates Css
+        |----> Footer Css
+        |----> Copyright Css
+3. Our Story Page
+        |----> Inner Page Title css
+        |----> About Part css
+        |----> Achievement Css
+4. Our Product Page
+5. Contact page
+        |----> Left img css
+        |----> Contact-form Css
+6. Error404 Page
+7. Blog-Details
+*/
+
+
+/*===========================
+    1. Theme default css 
+===========================*/
+
+
+/* Google Fonts Css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+
+/* Local Fonts Css */
+
+@font-face {
+    font-family: "adinekirnberg";
+    src: url("../fonts/adinekirnberg-script.regular.eot");
+    src: url("../fonts/adinekirnberg-script.regular.eot")format("embedded-opentype"), url("../fonts/adinekirnberg-script.regular.woff2")format("woff2"), url("../fonts/AdineKirnberg-Script.woff")format("woff"), url("../fonts/adinekirnberg-script.regular.ttf") format("truetype"), url("../fonts/AdineKirnberg-Script.svg")format("svg");
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.img {
+    max-width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    vertical-align: middle;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+span,
+a {
+    display: inline-block;
+}
+
+a,
+button {
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #003059;
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #999999;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*== All Button Style ==*/
+
+.theme_btn {}
+
+.theme_btn:hover {}
+
+.bg_cover {
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*== All section title here ==*/
+
+
+/* one-side-border title */
+
+.section_title {
+    text-align: center;
+}
+
+.section_title h2 {}
+
+
+/*===========================
+    Index Page Css Start 
+===========================*/
+
+
+/*===========================
+    HEADER CSS 
+===========================*/
+
+
+/* manubar */
+
+.navbar {
+    background: #597a7c;
+    margin: 0;
+    padding: 0;
+    height: 55px;
+}
+
+.navbar .navbar-brand {}
+
+.navbar .navbar-brand img {}
+
+.navbar .navbar-collapse {}
+
+.navbar .navbar-collapse .navbar-nav {}
+
+.navbar .navbar-collapse .navbar-nav .nav-item {}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {}
+
+.navbar .navbar-collapse .navbar-nav .nav-item.dropdown {}
+
+.navbar .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-toggle {}
+
+.navbar .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-menu {}
+
+.navbar .navbar-collapse .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item {}
+
+
+/* toggle icon */
+
+.navbar .navbar-toggler .icon_bar {
+    width: 30px;
+    height: 2px;
+    display: block;
+    margin: 5px 0;
+}
+
+
+/*===========================
+     STICKY HEADER CSS 
+=============================*/
+
+
+/*
+.header_area.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999999;
+	box-shadow: 0px 0px 191px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.header_area.sticky .navbar {
+	background: #1D2228;
+	animation: stickyani 8s;
+	-webkit-animation: stickyani 2s;
+	position: absolute;
+	padding-top: 0;
+}
+
+
+@keyframes stickyani {
+	from {
+		transform: translateY(-100%);
+	}
+
+	to {
+		transform: translateY(0);
+	}
+}
+
+*/
+
+
+/*===========================
+    BANNER CSS 
+===========================*/
+
+.banner_area {
+    height: 100vh;
+    position: relative;
+}
+
+.banner_area::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(6 6 6 / 48%);
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.banner_area .banner_text {
+    margin-top: 25%;
+    text-align: center;
+}
+
+.banner_area .banner_text h1 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.banner_area .banner_text .single_time {
+    position: relative;
+}
+
+.banner_area .banner_text .single_time::before {
+    position: absolute;
+    content: "";
+    background: #fff;
+}
+
+.banner_area .banner_text .single_time::after {
+    position: absolute;
+    content: "";
+    background: #fff;
+}
+
+.banner_area .banner_text .single_time h5 {
+    color: #fff;
+    font-size: 80px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.banner_area .banner_text .single_time h5::after {
+    position: absolute;
+    content: "";
+    background: #fff;
+    width: 2px;
+    height: 50px;
+    top: 61%;
+}
+
+.banner_area .banner_text .single_time h5::before {
+    position: absolute;
+    content: "";
+    background: #fff;
+    width: 2px;
+    height: 50px;
+    top: 61%;
+}
+
+.banner_area .banner_text .single_time span {
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.banner_area .banner_text .single_time .bf {
+    position: relative;
+}
+
+.banner_area .banner_text .single_time .bf::before {
+    position: absolute;
+    content: "";
+    background: #fff;
+    width: 10px;
+    height: 2px;
+    top: -54px;
+}
+
+.banner_area .banner_text .single_time .bf::after {
+    position: absolute;
+    content: "";
+    background: #fff;
+    width: 10px;
+    height: 2px;
+    top: -55px;
+}
+
+.banner_area .banner_text .single_time span::before {
+    position: absolute;
+    content: "";
+    background: #fff;
+    width: 40px;
+    height: 2px;
+    top: 50%;
+    left: -43px;
+}
+
+.banner_area .banner_text .single_time span::after {
+    position: absolute;
+    content: "";
+    background: #fff;
+    width: 40px;
+    height: 2px;
+    top: 50%;
+    right: -43px;
+}
+
+
+/* h5 */
+
+
+/* day */
+
+.banner_area .banner_text .day h5::before {
+    left: 15px;
+}
+
+.banner_area .banner_text .day h5::after {
+    right: 18px;
+}
+
+.banner_area .banner_text .day .bf::before {
+    left: -78px;
+}
+
+.banner_area .banner_text .day .bf::after {
+    right: -39px;
+}
+
+
+/* hours */
+
+.banner_area .banner_text .hours h5::before {
+    left: 7px;
+}
+
+.banner_area .banner_text .hours h5::after {
+    right: 11px;
+}
+
+.banner_area .banner_text .hours .bf::before {
+    left: -98px;
+}
+
+.banner_area .banner_text .hours .bf::after {
+    right: -35px;
+}
+
+
+/* minute */
+
+.banner_area .banner_text .minute h5::before {
+    left: 4px;
+}
+
+.banner_area .banner_text .minute h5::after {
+    right: 8px;
+}
+
+.banner_area .banner_text .minute .bf::before {
+    left: -107px;
+}
+
+.banner_area .banner_text .minute .bf::after {
+    right: -31px;
+}
+
+
+/* second */
+
+.banner_area .banner_text .second h5::before {
+    left: 0px;
+}
+
+.banner_area .banner_text .second h5::after {
+    right: 4px;
+}
+
+.banner_area .banner_text .second .bf::before {
+    left: -115px;
+}
+
+.banner_area .banner_text .second .bf::after {
+    right: -32px;
+}
+
+
+/* h5 */
+
+
+/* span */
+
+.banner_area .banner_text .day span::before {}
+
+.banner_area .banner_text .day span::after {}
+
+.banner_area .banner_text .hours span::before {
+    width: 35px;
+    left: -39px;
+}
+
+.banner_area .banner_text .hours span::after {
+    width: 35px;
+    right: -39px;
+}
+
+.banner_area .banner_text .minute span::before {
+    width: 30px;
+    left: -34px;
+}
+
+.banner_area .banner_text .minute span::after {
+    width: 30px;
+    right: -34px;
+}
+
+.banner_area .banner_text .second span::before {
+    width: 30px;
+    left: -35px;
+}
+
+.banner_area .banner_text .second span::after {
+    width: 30px;
+    right: -35px;
+}
+
+
+/* span */
+
+
+/*===========================
+PRODUCT CSS 
+===========================*/
+
+.banner_area .banner_text .subscribe_box {
+    margin-top: 55px;
+}
+
+.banner_area .banner_text .subscribe_box label {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.banner_area .banner_text .subscribe_box input {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    background: none transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    line-height: 1em;
+    padding: 7px 15px;
+    width: 300px;
+    margin: 0 0 10px 0;
+}
+
+.banner_area .banner_text .subscribe_box button {
+    border: 2px solid #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-left: 8px;
+    background: transparent;
+    color: #fff;
+    font-size: 13px;
+}
+
+
+/*===========================
+    EVENT CSS 
+===========================*/
+
+.contuct_us {
+    margin-top: 35%;
+    margin-left: 111px;
+    position: relative;
+}
+
+.contuct_us .title {}
+
+.contuct_us .title h3 {
+    color: #fff;
+    position: relative;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.contuct_us .title h3::before {
+    position: absolute;
+    content: "";
+    width: 62%;
+    height: 5px;
+    top: 100%;
+    background: #ffffff96;
+}
+
+.contuct_us .title h3 i {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 12px;
+    position: absolute;
+    top: 11px;
+}
+
+.contuct_us .contuct_info {}
+
+.contuct_us .contuct_info label {
+    color: #fff;
+    display: block;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.contuct_us .contuct_info span {
+    color: #fff;
+    margin-bottom: 37px;
+}
+
+.contuct_us .socil_icon {
+    position: absolute;
+    top: 104px;
+    right: 0;
+}
+
+.contuct_us .socil_icon a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    margin-bottom: 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    color: #000;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.contuct_us .socil_icon a i {}
+
+
+/*===========================
+    OFFER CSS 
+===========================*/
+
+
+/*===========================
+    UPDATES CSS 
+===========================*/
+
+
+/*===========================
+    FOOTER-PART CSS 
+===========================*/
+
+
+/* ========================================================== */
+
+
+/* 			                02. FOOTER                        */
+
+
+/* ========================================================== */
+
+
+/*===========================
+    COPYRIGHT-PART CSS 
+===========================*/
+
+
+/* =========================----- Back-to-top button css -----====================== */
+
+.back_to_top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: #1D2228;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+    -o-transition: all .4s linear;
+}
+
+.back_to_top:hover {
+    background: #cf851e;
+    color: #fff;
+}
